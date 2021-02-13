@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" type="text/javascript" language="javascript"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>TileSet Subcomponent</title>
+  </head>
+  <body>
+    <div class="condiv">
+      <button id="L0_Button" onClick="dropdown(L0_Button)" class="buttonlayer0 accordion">Layer 0</button>
+      <div id="L0_Div" class="t1l0 majordiv">
+        <div id="L0" class="innerdiv"></div>
+        <div class="loadfile">
+          <label for="L0_file" class="tilebutton inputfile">+</label>
+          <input id="L0_file" class="files" accept=".tset" type="file" />
+        </div>
+      </div>
+
+      <button id="L1_Button" onClick="dropdown(L1_Button)" class="buttonlayer1 accordion">Layer 1</button>
+      <div id="L1_Div" class="t1l0 majordiv">
+        <div id="L1" class="innerdiv"></div>
+
+        <div class="loadfile">
+          <label for="L1_file" class="tilebutton inputfile">+</label>
+          <input id="L1_file" class="files" accept=".tset" type="file" />
+        </div>
+      </div>
+
+      <button id="L2_Button" onClick="dropdown(L2_Button)" class="buttonlayer2 accordion">Layer 2</button>
+      <div id="L2_Div" class="t1l0 majordiv">
+        <div id="L2" class="innerdiv"></div>
+
+        <div class="loadfile">
+          <label for="L2_file" class="tilebutton inputfile">+</label>
+          <input id="L2_file" class="files" accept=".tset" type="file" />
+        </div>
+      </div>
+    </div>
+    <script>
+      init()
+    </script>
+  </body>
+</html>
